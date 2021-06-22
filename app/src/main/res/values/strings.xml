@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cevaplar</string>
+    <string name="info">\tUygulama bir üniversite öğrencisi tarafından sadece eğlence amaçlı yapılmıştır.Gerçeklikle uzaktan yakından ilgisi yoktur.\n\nGeliştirici: Mustafa Muharrem Aydın\nE-posta: edebtek@gmail.com</string>
+    <string name="example">nasıl yapacaağız bu işi</string>
+    <string name="main">Soracağın Soruya 10 sn. Boyunca Yoğunlaşıp ve Hissettiğin En Doğru Anda Aşağıdaki Göze Tıklaman Yeterli</string>
+    <string name="simge">illumunati simgesi</string>
+    <string name="goztodo">Göz butonu</string>
+    <string name="infohk">Hakkında</string>
+    <string name="again">Yeniden Sor</string>
+</resources>

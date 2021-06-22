@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_above="@+id/tikk"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/simge"
+            android:src="@drawable/ill" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main"
+            android:textSize="30sp"
+            android:fontFamily="@font/viaoda"
+            android:layout_margin="5dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/tikk"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:padding="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+
+
+        <ImageButton
+            android:id="@+id/btnCevap"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textSize="15sp"
+            android:layout_margin="5dp"
+            android:src="@drawable/eye"
+            android:background="@color/black"
+            android:textColor="@color/white"
+            android:contentDescription="@string/goztodo" />
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_outline_info_24"
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="#040404" />
+
+
+</RelativeLayout>
